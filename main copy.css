@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "montreal";
+  src: url(/font/PPNeueMontreal-Book.otf);
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "montreal";
+
+}
+.snacks{
+  width: 10vw;
+  height: auto;
+}
+
+.plate{
+  z-index: 80;
+  width: 20vw;
+  height: auto;
+}
+.platediv{
+  align-items: center;
+  justify-content: center;
+  z-index:90;
+}
+.snacks {
+  cursor: pointer;
+}
+.timer {
+  position: fixed;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  z-index: 2000;
+}
